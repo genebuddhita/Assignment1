@@ -1851,6 +1851,74 @@
                 "y": -170
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Login authentication",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Login authentication"
+            ],
+            "id": "a52dcbf2-708a-4e7e-8d31-8b6d9373c06a",
+            "source": {
+              "x": 160,
+              "y": -420
+            },
+            "target": {
+              "x": 150,
+              "y": -230
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": -330
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Input validation",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Input validation"
+            ],
+            "id": "9b9ac368-97d5-4c6f-86b4-fe4ea4cc5505",
+            "source": {
+              "x": 660,
+              "y": -340
+            },
+            "target": {
+              "x": 790,
+              "y": -260
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": -260
+              },
+              {
+                "x": 740,
+                "y": -240
+              }
+            ]
           }
         ]
       }
