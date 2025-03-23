@@ -1268,56 +1268,6 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "2f1eb2b2-f0b3-4c9f-836e-eab11a80b3ac",
-            "source": {
-              "cell": "5d27100f-8a09-469b-a73b-b1204f0c55a9",
-              "port": "6b71b404-f2e0-40c8-b7a8-838af99143e0"
-            },
-            "target": {
-              "cell": "adbf97fb-a421-4b97-b142-b8bf5c2de3e8",
-              "port": "b0e53b11-6747-4c83-ab8b-ff6c3270ae61"
-            },
-            "vertices": [
-              {
-                "x": 550,
-                "y": -220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
             "id": "544015b7-0e59-47cc-b5e7-050d6964a1e9",
             "source": {
               "cell": "d67f2555-6232-40d5-979a-e45f9fc19040",
@@ -1439,7 +1389,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Injected logs",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1451,7 +1401,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Injected logs"
             ],
             "id": "cd1a2fd3-e314-41bc-8616-468c396d5395",
             "source": {
@@ -1849,6 +1799,56 @@
               {
                 "x": 240,
                 "y": -130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "MQTT message logs",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "MQTT message logs"
+            ],
+            "id": "647302a0-786f-4491-aaf4-e190ca0825d3",
+            "source": {
+              "x": 700,
+              "y": -260
+            },
+            "target": {
+              "cell": "adbf97fb-a421-4b97-b142-b8bf5c2de3e8",
+              "port": "9793e197-4ce0-4228-ac63-0c14dd685042"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": -170
               }
             ]
           }
