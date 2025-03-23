@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "d67f2555-6232-40d5-979a-e45f9fc19040",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Threat Actor \nInteraction",
@@ -157,6 +157,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -240,7 +241,6 @@
               ]
             },
             "id": "5d27100f-8a09-469b-a73b-b1204f0c55a9",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Communication &\nData Transmission",
@@ -276,6 +276,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -359,11 +360,10 @@
               ]
             },
             "id": "39edb363-5a06-4a3c-b0c1-bc73d4bb6b01",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Interface\n& Control",
-              "description": "",
+              "description": "Description: Manages user commands and sends them to the communication layer.\nEvil Story: Attacker injects malicious commands via XSS.\nSecurity Story: Input validation and authentication prevent unauthorized access.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +479,6 @@
               ]
             },
             "id": "2e879f84-862c-4023-9e9a-f3ddaee89c97",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Camera \nSurveillance",
@@ -517,6 +517,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -600,7 +601,6 @@
               ]
             },
             "id": "adbf97fb-a421-4b97-b142-b8bf5c2de3e8",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Database (User logs)",
@@ -640,6 +640,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -723,7 +724,6 @@
               ]
             },
             "id": "05555b05-1b62-4234-824f-254b2b603ca9",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "MQTT Message\nQueue",
@@ -760,6 +760,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -843,7 +844,6 @@
               ]
             },
             "id": "882ac07e-38ad-41c7-9182-46b598332837",
-            "zIndex": 7,
             "data": {
               "type": "tm.Actor",
               "name": "Admin/User",
@@ -876,6 +876,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -959,7 +960,6 @@
               ]
             },
             "id": "24bdde23-f473-477f-87df-4969f31a2397",
-            "zIndex": 8,
             "data": {
               "type": "tm.Actor",
               "name": "Attacker",
@@ -995,6 +995,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1078,7 +1079,6 @@
               ]
             },
             "id": "40387b96-99d9-42c6-8347-6ae247848bb4",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Database (Attack logs)",
